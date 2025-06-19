@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>App Name</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="30:url=http://127.0.0.1:5000/">
+  <meta name="description" content="Tiktok Connect App" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+  <!-- <div id="root"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./src/index.js" type="text/jsx"></script> -->
+
+  <h1> Tiktok Connect <h1>
+  <p> Text: {{passedText}}</p>
+  <div>
+    <video width="750" height="500">
+      <source src="{{ url_for('static', filename='all_stupid_shit.mp4') }}" type="video/mp4" />
+    </video>
+  </div>
+</body>
+
+</html>
