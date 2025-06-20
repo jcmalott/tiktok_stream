@@ -44,14 +44,14 @@ py flasktest.py
 ```
 NOTE: 
 To change TikTok livestream user, within flasktest.py<br>
-  Change the username to your account username.<br>
-  ![Username](images/tiktok_user.jpg)
-  ![Profile](images/Profile.jpg)
+Change the username to your account username.<br>
+![Profile](images/Profile.jpg) <br>
+![Username](images/tiktok_user.jpg)
 
 If you run this before the user is live, you will need to restart it.
 
-Add a link to TikTok Studio.
-http://localhost.com:3000/
-![Studio](images/tiktok_studio.jpg)
-![Link](studio_link.jpg)
+Add a link to TikTok Studio. <br>
+http://localhost.com:3000/ <br>
+![Studio](images/tiktok_studio.jpg) <br>
+![Link](images/studio_link.jpg)
 
