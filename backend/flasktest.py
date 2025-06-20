@@ -38,10 +38,10 @@ nest_asyncio.apply()  # Allow asyncio within synchronous contexts
 # Configuration
 TIKTOK_USERNAME = "@identityunk"
 IS_TESTING = False
-# TIKTOK_USERNAME = "@alixxairl"
+# TIKTOK_USERNAME = "@yoyo_savagemike"
 # IS_TESTING = True
 SOCKET_CORS_ORIGINS = ["http://localhost:3000", "http://localhost.com:3000"]
-SOUND_COOLDOWN = 10.0
+SOUND_COOLDOWN = 15.0
 GIFT_COOLDOWN = 5.0
 TITLE_COOLDOWN = 3.0
 
